@@ -114,16 +114,141 @@ body {
     }
 
 }
+
 .highlight-items-reversed {
     background-image: url(./images/patterns/pattern-curve-top-left.svg);
     background-repeat: no-repeat;
-    width:895px;
+    width: 895px;
     background-position: 550px 320px;
 }
+
 .item-two {
     display: flex;
+    margin-bottom: -76px;
 }
+
 .divide-lines {
     margin-top: 320px;
     margin-left: -30px;
+}
+
+.test {
+    color: white;
+    font-family: "League Spartan", sans-serif;
+}
+
+.test-two-sections {
+    display: flex;
+    flex-direction: column;
+    padding: 200px 165px 120px 165px;
+    gap: 48px;
+}
+.minus-image {
+        display: flex;
+        width: 72px;
+        height: 7px;
+    }
+
+.test-monials {
+    display: flex;
+    gap: 125px;
+}
+
+.test-left-content {
+    width: 445px;
+    height: 210px;
+
+    h5 {
+        margin-bottom: 24px;
+        font-weight: 700;
+        font-size: 48px;
+        line-height: 100%;
+        letter-spacing: -0.5px;
+        font-style: normal;
+        width: 445px;
+    }
+
+    p {
+        width: 445px;
+        font-size: 20px;
+        font-weight: 400;
+        line-height: 150%;
+        font-style: normal;
+    }
+}
+
+.test-images {
+    display: flex;
+    flex-direction: column;
+
+}
+
+.top-image {
+    display: flex;
+    margin-bottom: 24px;
+    border-bottom: 2px solid #303030;
+
+    img {
+        display: flex;
+        width: 128px;
+        height: 96px;
+        margin-bottom: 24px;
+    }
+}
+
+.test-content-heading {
+    display: flex;
+    gap: 30px;
+    align-items: center;
+    margin-top: 6px;
+    margin-bottom: 6px;
+
+    img {
+        display: flex;
+        width: 32px;
+        height: 1px;
+        margin-left: -2px;
+    }
+
+    h6 {
+        font-style: normal;
+        font-weight: 700;
+        font-size: 20px;
+        line-height: 120%;
+        letter-spacing: -0.25px;
+    }
+}
+
+.test-content {
+    p {
+        display: flex;
+        margin-left: 62px;
+        font-style: normal;
+        font-weight: 400;
+        font-size: 16px;
+        line-height: 162.5%;
+        letter-spacing: -0.25px;
+    }
+}
+
+.bottom-image {
+    display: flex;
+    margin-bottom: 24px;
+}
+
+.choco-image {
+    display: flex;
+        width: 128px;
+        height: 96px;
+}
+.test-content1 {
+    p {
+        display: flex;
+        margin-left: 62px;
+        font-style: normal;
+        font-weight: 400;
+        font-size: 16px;
+        line-height: 162.5%;
+        letter-spacing: -0.25px;
+    }
 }
