@@ -124,6 +124,7 @@ body {
 
 .item-two {
     display: flex;
+    margin-bottom: -76px;
 }
 
 .divide-lines {
