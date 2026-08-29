@@ -319,16 +319,109 @@ body {
 .family-section {
     display: flex;
     align-items: center;
+
     img {
-        width:95px;
+        width: 95px;
         height: 1px;
         margin-left: -10px;
-        margin-right: 40px ;
+        margin-right: 40px;
     }
 }
+
 .special-section {
     margin-left: 125px;
 }
+
 .social-section {
     margin-left: 125px;
+}
+
+.footer {
+    color: white;
+    display: flex;
+    flex-direction: column;
+    font-family: "League Spartan", sans-serif;
+}
+
+.footer-heading {
+    display: flex;
+    background-image: url(./images/homepage/ready-bg-desktop@2x.jpg);
+    background-repeat: no-repeat;
+    background-size: cover;
+    width: 1440px;
+    gap: 247px;
+
+    h3 {
+        padding-left: 165px;
+        padding-top: 96px;
+        padding-bottom: 88px;
+        display: flex;
+        font-style: normal;
+        font-weight: 700;
+        font-size: 48px;
+        line-height: 100%;
+        letter-spacing: -0.5px;
+    }
+
+    a {
+        margin-top: 88px;
+        margin-bottom: 88px;
+        margin-left: 85px;
+        display: flex;
+        flex-direction: row;
+        justify-content: center;
+        width: 248px;
+        height: 64px;
+        align-items: center;
+        padding: 24px 56px;
+        background-color: white;
+        color: black;
+    }
+}
+
+.footer-content {
+    display: flex;
+    gap: 192.58px;
+    margin-left: 165px;
+    width: 1440px;
+    height: 240px;
+
+    img {
+        display: flex;
+        width: 103.42px;
+        height: 40px;
+        margin-top: 78px;
+        margin-bottom: 122px;
+    }
+}
+
+.footer-contact {
+    display: flex;
+    list-style: none;
+    gap: 124px;
+    margin-top: 78px;
+    margin-bottom: 78px;
+}
+
+.address {
+    display: flex;
+    flex-direction: column;
+    width: 244px;
+    height: 84px;
+    font-style: normal;
+    font-weight: 400;
+    font-size: 14px;
+    line-height: 200%;
+    letter-spacing: 2px;
+}
+.timings {
+    display: flex;
+    flex-direction: column;
+    width: 446px;
+    height: 84px;
+    font-style: normal;
+    font-weight: 400;
+    font-size: 14px;
+    line-height: 200%;
+    letter-spacing: 2px;
 }
