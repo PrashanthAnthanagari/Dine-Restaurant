@@ -143,11 +143,12 @@ body {
     padding: 200px 165px 120px 165px;
     gap: 48px;
 }
+
 .minus-image {
-        display: flex;
-        width: 72px;
-        height: 7px;
-    }
+    display: flex;
+    width: 72px;
+    height: 7px;
+}
 
 .test-monials {
     display: flex;
@@ -238,9 +239,10 @@ body {
 
 .choco-image {
     display: flex;
-        width: 128px;
-        height: 96px;
+    width: 128px;
+    height: 96px;
 }
+
 .test-content1 {
     p {
         display: flex;
@@ -251,4 +253,82 @@ body {
         line-height: 162.5%;
         letter-spacing: -0.25px;
     }
+}
+
+.family-gathering {
+    background-color: white;
+    display: flex;
+}
+
+.family-image {
+    display: flex;
+    flex-direction: column;
+    background-image: url(./images/patterns/pattern-curve-top-right.svg);
+    background-repeat: no-repeat;
+    background-position: 0px 0px;
+    padding-top: 85px;
+    padding-left: 165px;
+    padding-bottom: 209.19px;
+
+}
+
+.family-content {
+    padding: 233px 165px 233px 0px;
+
+    h3 {
+        font-size: 40px;
+        font-weight: 700;
+        font-style: normal;
+        line-height: 100%;
+        letter-spacing: -0.5px;
+        margin-bottom: 20px;
+        margin-left: 125px;
+    }
+
+    p {
+        font-size: 20px;
+        font-weight: 400;
+        font-style: normal;
+        line-height: 150%;
+        margin-left: 125px;
+    }
+
+    a {
+        display: flex;
+        flex-direction: row;
+        justify-content: center;
+        align-items: center;
+        padding: 24px 56px;
+        width: 248px;
+        height: 64px;
+        background-color: black;
+        color: white;
+        margin-top: 56px;
+        margin-bottom: 80px;
+        margin-left: 125px;
+
+    }
+}
+
+.events {
+    display: flex;
+    flex-direction: column;
+    gap: 24px;
+}
+
+.family-section {
+    display: flex;
+    align-items: center;
+    img {
+        width:95px;
+        height: 1px;
+        margin-left: -10px;
+        margin-right: 40px ;
+    }
+}
+.special-section {
+    margin-left: 125px;
+}
+.social-section {
+    margin-left: 125px;
 }
