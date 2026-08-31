@@ -209,6 +209,7 @@ body {
         width: 32px;
         height: 1px;
         margin-left: -2px;
+        margin-bottom: -1px;
     }
 
     h6 {
@@ -217,10 +218,13 @@ body {
         font-size: 20px;
         line-height: 120%;
         letter-spacing: -0.25px;
+        justify-content: center;
+
     }
 }
 
 .test-content {
+
     p {
         display: flex;
         margin-left: 62px;
@@ -230,6 +234,15 @@ body {
         line-height: 162.5%;
         letter-spacing: -0.25px;
     }
+}
+
+.minus-image1 {
+    display: flex;
+    width: 32px;
+    height: 1px;
+    margin-left: -2px;
+    margin-bottom: -1px;
+
 }
 
 .bottom-image {
@@ -265,11 +278,18 @@ body {
     flex-direction: column;
     background-image: url(./images/patterns/pattern-curve-top-right.svg);
     background-repeat: no-repeat;
-    background-position: 0px 0px;
     padding-top: 85px;
     padding-left: 165px;
     padding-bottom: 209.19px;
 
+}
+
+.image-pattern {
+    display: flex;
+    width: 160px;
+    height: 76px;
+    margin-left: -43px;
+    margin-top: -637px;
 }
 
 .family-content {
@@ -414,6 +434,7 @@ body {
     line-height: 200%;
     letter-spacing: 2px;
 }
+
 .timings {
     display: flex;
     flex-direction: column;
